@@ -17,6 +17,7 @@
 ## 課程筆記區
 ## 作業連結區
 ### 作業一
+- [111學年大專院校校別學生數資料集 資料處理](https://github.com/whyhugo/LATIA112-1/blob/main/data_processing/Lab.ipynb)
 ### 作業二
 ### 作業三
 ## 專題連結區
