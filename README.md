@@ -19,6 +19,6 @@
 ### 作業一
 - [111學年大專院校校別學生數資料集 資料處理](https://github.com/whyhugo/LATIA112-1/blob/main/data_processing/Lab.ipynb)
 ### 作業二
-- [NBA.com stats crawler & Office of Academic Affairs' (NTNU) bulletin board crawler](https://github.com/whyhugo/LATIA112-1/blob/main/web_crawl/HW2_crawler.ipynb)
+- [NBA.com stats crawler & Office of Academic Affairs' (NTNU) bulletin board crawler](https://github.com/whyhugo/LATIA112-1/tree/main/web_crawl/HW2)
 ### 作業三
 ## 專題連結區
