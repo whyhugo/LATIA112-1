@@ -8,6 +8,7 @@ trace1.domain = {
     row:0,
     column:0
 };
+trace1.hole = 0.6;
 
 for (let x=0; x<evaluation_ratio_1.length; x++) {
     trace1.labels[x] = evaluation_ratio_1[x]['name'];
@@ -23,6 +24,7 @@ trace2.domain = {
     row:0,
     column:1
 };
+trace2.hole = 0.6;
 
 for (let x=0; x<evaluation_ratio_2.length; x++) {
     trace2.labels[x] = evaluation_ratio_2[x]['name'];
@@ -38,6 +40,7 @@ trace3.domain = {
     row:1,
     column:0
 };
+trace3.hole = 0.6;
 
 for (let x=0; x<evaluation_ratio_3.length; x++) {
     trace3.labels[x] = evaluation_ratio_3[x]['name'];
@@ -53,6 +56,7 @@ trace4.domain = {
     row:1,
     column:1
 };
+trace4.hole = 0.6;
 
 for (let x=0; x<evaluation_ratio_4.length; x++) {
     trace4.labels[x] = evaluation_ratio_4[x]['name'];
