@@ -1,11 +1,6 @@
 import pandas as pd 
 from flask import Flask, render_template
 
-df = pd.read_csv("https://www.taifex.com.tw/data_gov/taifex_open_data.asp?data_name=DailyForeignExchangeRates", encoding='cp950')
-print(df)
-df.isnull().sum()
-
-'''
 app = Flask(__name__)
 @app.route("/")
 def formPage():
@@ -31,8 +26,7 @@ def formPage():
     # 轉換為JSON格式
     result =df.to_json(orient="records")
     # 送至前端
-    returnrender_template('index.html', exchangeData=result)
+    return render_template('index.html', exchangeData=result)
     
 if __name__ == "__main__":
     app.run()
-'''
