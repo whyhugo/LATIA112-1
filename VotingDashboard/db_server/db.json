@@ -1,0 +1,46 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "gender": "Male",
+      "age": 25,
+      "area": "Taipei",
+      "food": 2
+    },
+    {
+      "id": 2,
+      "gender": "Female",
+      "age": 35,
+      "area": "Taoyuan",
+      "food": 1
+    },
+    {
+      "gender": "Male",
+      "age": "15",
+      "area": "Kaohsiung",
+      "food": "0",
+      "id": 3
+    },
+    {
+      "gender": "Male",
+      "age": "55",
+      "area": "Taichung",
+      "food": "1",
+      "id": 4
+    },
+    {
+      "gender": "Unknown",
+      "age": "55",
+      "area": "Kaohsiung",
+      "food": "0",
+      "id": 5
+    },
+    {
+      "gender": "Unknown",
+      "age": "15",
+      "area": "Taoyuan",
+      "food": "2",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+#myGraph, #myGraph2, #myGraph3, #myGraph4{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid gray;
+}
