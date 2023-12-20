@@ -86,10 +86,10 @@ let layout3 = {
         text: '新用戶登入時間線'
     },
     xaxis: {
-        title: '年級'
+        title: '時間（年月）'
     },
     yaxis: {
-        title: '時間（年月）'
+        title: '新帳戶數量'
     },
     margin: {
         t: 70,
