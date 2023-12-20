@@ -30,3 +30,4 @@
 ## 專題連結區
 - [中學生釐清學科知識概念
 輔助與分析](https://github.com/whyhugo/LATIA112-1/tree/main/final)
+- [簡報](https://www.canva.com/design/DAF3WPS0YBA/YqjHOdaXuQFu6IcwGOE-4Q/view?utm_content=DAF3WPS0YBA&utm_campaign=designshare&utm_medium=link&utm_source=editor)
