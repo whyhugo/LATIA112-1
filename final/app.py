@@ -14,16 +14,16 @@ import openai  # Import the OpenAI library
 app = Flask(__name__)
 
 # Set Line Bot keys and endpoints
-line_bot_api = LineBotApi('your_channel_access_token')
-handler = WebhookHandler('your_channel_secret')
+line_bot_api = LineBotApi('apikey')
+handler = WebhookHandler('secret')
 
 # Set Azure keys and endpoints
-subscription_key = "your_subscription_key"
-endpoint = "your_endpoint"
+subscription_key = "key"
+endpoint = "endpoint"
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
 
 # Set OpenAI API key
-openai.api_key = 'your_openai_api_key'
+openai.api_key = 'apikey'
 
 @app.route("/callback", methods=['POST'])
 def callback():
@@ -93,7 +93,7 @@ def find_video_link(junyi_data, chosen_completion):
 
 def read_junyiacademy():
     data = {}
-    with open(r'D:\programing\swiftx\NTNU\LATIA112-1\均一高中生物.csv', 'r', encoding='utf-8-sig') as file:
+    with open('均一高中生物.csv', 'r', encoding='utf-8-sig') as file:
         junyi_data = csv.DictReader(file)
         count = 0
         for row in junyi_data:
@@ -102,4 +102,4 @@ def read_junyiacademy():
     return data
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
