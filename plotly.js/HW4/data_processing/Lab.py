@@ -18,10 +18,6 @@ for i in range(12):
 for i in df['user_grade']:
     count[i-1] += 1
 
-import csv
-import json
-
-
 monthly_counts = defaultdict(int)
 
 for i in df['first_login_date_TW']:
