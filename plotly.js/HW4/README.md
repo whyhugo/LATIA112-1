@@ -11,7 +11,7 @@
 - Junyi Academy Online Learning Activity Dataset - Kaggle
   > https://www.kaggle.com/datasets/junyiacademy/learning-activity-public-dataset-by-junyi-academy
   - About Dataset
-    The importance and popularity of online learning have increased a lot as the world is moving into an information era. The current COVID-19 situation shows that online learning acts both as a promising medium for equitable quality education, and an essential component for the education system when campuses shut down.
+    - The importance and popularity of online learning have increased a lot as the world is moving into an information era. The current COVID-19 situation shows that online learning acts both as a promising medium for equitable quality education, and an essential component for the education system when campuses shut down.
     Junyi Academy Foundation, a non-profit organization based in Taiwan that aims to provide all children equitable quality education by technology, is eager to support our learning community during this pandemic. We release a dataset consisting of over 16 million exercise attempt logs on our platform from more than 72,000 students over the course of a year (from 2018/08 to 2019/07). We hope our dataset could empower the research of creating a better and personalized learning experience for students, and further encourage broader participation for contributing to the future of online learning from interdisciplinary experts.
 ### 分析目標
 使用這份資料集當中提供的使用者數據，分析以下三項：
@@ -29,5 +29,6 @@
 > https://whyhugo.github.io/LATIA112-1/plotly.js/HW4/index.html
 
 下圖為網頁運行畫面。
+
 ![ing](https://whyhugo.github.io/LATIA112-1/plotly.js/HW4/網頁截圖.png)
-![ing](https://whyhugo.github.io/LATIA112-1/plotly.js/HW4/網頁截圖_全.png)
+![ing](https://whyhugo.github.io/LATIA112-1/plotly.js/HW4/網頁截圖_全.jpeg)
